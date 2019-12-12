@@ -163,7 +163,7 @@ function fnBuildTabStrip()
  szHTML+="</table></body></html>";
  with (frames['frTabs'].document) {
   open("text/html","replace");
-  charset=document.charset;
+  charset="windows-1252";
   write(szHTML);
   close();
  }
